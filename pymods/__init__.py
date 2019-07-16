@@ -1,6 +1,6 @@
 from lxml import etree
 from lxml.builder import ElementMaker
-from _lxml import makeelement
+from pymods._lxml import makeelement
 
 XSI_NAMESPACE = 'http://www.w3.org/2001/XMLSchema-instance'
 XLINK_NAMESPACE = 'http://www.w3.org/1999/xlink'
