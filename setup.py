@@ -2,9 +2,9 @@ from setuptools import setup, find_packages
 
 setup(
     name="pymods",
-    version="0.2.1",
+    version="0.3.0",
     packages=find_packages(),
-    install_requires=['lxml >= 2.3'],
+    install_requires=['lxml >= 4.3.4'],
     author="Matt Cordial",
     author_email="matt.cordial@gmail.com",
     description=(
